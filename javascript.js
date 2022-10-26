@@ -8,7 +8,8 @@ div.style.color = 'aquamarine'*/
 
 /*var div = window.document.querySelector('div#caq')*/ /*Quando pegar um elemento que tem um id usamos # para selecionar esse elemento através do query selector */
 var div = window.document.querySelector('div.caq') /*Quando pegar um elemento que tem uma class usamos . para selecionar esse elemento através do query selector */
-div.style.background = 'turquoise'
+
+/*div.style.background = 'turquoise'*/
 
  /*var title = window.document.getElementsByName('hname')[0]
 title.style.color = 'yellow' */ /*Usando o método de seleção getelementsByName para tingir o título de amarelo*/
@@ -16,3 +17,9 @@ title.style.color = 'yellow' */ /*Usando o método de seleção getelementsByNam
 console.log(
     window.document.getElementsByClassName('cont')
 ) /*Selecionando todos os elementos do body e vendo através do console*/
+
+function clicar() {
+    var int = window.document.querySelector("h1.cont")
+    int.style.background = "black"
+    int.innerText = "Document Object Model"
+}
