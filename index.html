@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <h1 name="hname" class="cont" onclick="clicar()">Iniciação dos estudos com DOM</h1>
+    <h1 name="hname" class="cont" onclick="clicar()">Iniciação dos estudos com DOM</h1> <!--Quando clicar, fazer o evento onclick, no título, vai disparar a ação "clicar()"-->
     <p class="cont">Aqui vai um resultado</p>
-    <p class="cont">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <p id="dom" class="cont">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
     <!--<div id = 'caq'>Clique aqui</div>-->
-    <div class="caq">Clique aqui e veja a magia acontecer </div>
+    <div class="caq" onmouseenter="entrar()" onmouseout="sair()">Clique aqui e veja a magia acontecer </div>
     <script src="javascript.js"></script>
 
 </body>
