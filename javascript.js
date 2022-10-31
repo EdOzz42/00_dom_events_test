@@ -35,9 +35,15 @@ function sair() {
     etr.style.background = "cyan"
 }
 
-var clicou1 = window.document.querySelector("p#dom")
-clicou1.addEventListener('click', clicou)
+var p = window.document.querySelector("p#dom")
+p.addEventListener('click', clicou)
+p.addEventListener('mouseout', sair1)
+
+//O "addEventLister" é uma maneira de organizar e facilitar a ponte de um elemento html para os eventos e suas ´funções.
 
 function clicou() {
-    clicou1.style.background = "Crimson"
+    p.style.background = "Crimson"
+}
+function sair1() {
+    p.style.background = "blue"
 }
