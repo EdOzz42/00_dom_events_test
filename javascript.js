@@ -45,5 +45,5 @@ function clicou() {
     p.style.background = "Crimson"
 }
 function sair1() {
-    p.style.background = "blue"
+    p.style.background = "black"
 }
